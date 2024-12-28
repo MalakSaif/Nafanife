@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android
+    ="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deleteabaya"
+    android:orientation="vertical"
+    android:background="@drawable/bgcolor2">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="134dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Phone Number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:id="@+id/oldabayaname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:hint="Enter abaya ID" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+    <EditText
+        android:id="@+id/newabayaname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:hint="Enter new ph.no" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="42dp" />
+    <Button
+        android:id="@+id/updatenamee"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#FC9470"
+        android:text="Update phone no."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="49dp" />
+    <Button
+        android:id="@+id/Exitu"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:backgroundTint="#FC9470"
+        android:text="Exit"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+</LinearLayout>

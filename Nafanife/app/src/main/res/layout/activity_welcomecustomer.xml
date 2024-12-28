@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android
+    ="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgcolor2"
+    tools:context=".welcomecustomer">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="136dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome customer"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="35dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="49dp" />
+    <Button
+        android:id="@+id/addabayas"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#FC9470"
+        android:text="Add Abaya"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="28dp" />
+    <Button
+        android:id="@+id/srcabaya"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#FC9470"
+        android:text="Search Abayas"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+    <Button
+        android:id="@+id/updname"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#FC9470"
+        android:text="Update ph.no"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/deldabaya"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#FC9470"
+        android:text="Delete Abaya"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/logoutnf"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#FC9470"
+        android:text="Log-Out of Nifanife"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android
+    ="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgcolor2"
+    tools:context=".loginnafanife">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="145dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login into Nafanife"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="35dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="49dp" />
+    <EditText
+        android:id="@+id/namelogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:hint="Name" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="42dp" />
+    <EditText
+        android:id="@+id/passwordlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:hint="Password" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <Button
+        android:id="@+id/signinlogin"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:backgroundTint="#FC9470"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="25dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+</LinearLayout>

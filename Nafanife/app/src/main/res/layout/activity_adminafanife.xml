@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgcolor2"
+    tools:context=".adminafanife">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="134dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Mallak"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="39dp" />
+    <Button
+        android:id="@+id/registercustomeradd"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#FC9470"
+        android:text="Register Customer"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="28dp" />
+    <Button
+        android:id="@+id/showcustinfo"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#FC9470"
+        android:text="Show customer information"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+    <Button
+        android:id="@+id/showabayaall"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#FC9470"
+        android:text="Show Abayas"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/logoutn"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#FC9470"
+        android:text="Log-Out of Nifanife"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+</LinearLayout>
